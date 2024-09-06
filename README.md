@@ -74,3 +74,33 @@ O projeto é um gerenciador de tarefas que permite adicionar e remover tarefas d
     ```bash
     npm run test
     ```
+
+## Documentação da API
+
+#### Criar uma task
+
+```http
+  Post /tasks/
+```
+
+| Requisição   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `title`      | `string` | **Obrigatório**. O title da task |
+
+#### Retorna todos as tasks
+
+```http
+  GET /tasks
+```
+
+#### Deleta uma task
+
+```http
+  Delete /tasks/${id}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `id`      | `string` | **Obrigatório**. O ID do item que você quer |
+
+
