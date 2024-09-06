@@ -13,6 +13,7 @@
         border-radius: 0.5rem;
         border: 1px solid #6b65729f;
         padding-left: 0.625rem;
+        cursor: pointer;
         &:focus {
             border-color: transparent;
             outline: none;
@@ -30,6 +31,7 @@
         align-items: center;
         background-color: #6F3CC3;
         border-radius: 7px;
+        cursor: pointer;
         &:hover {
             background-color: #9659F3;
         }
