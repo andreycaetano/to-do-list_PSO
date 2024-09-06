@@ -1,0 +1,30 @@
+.task_list_container {
+    margin-top: 5rem;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 600px) {
+        width: 60%;
+    }
+    
+    div {
+        border-bottom: 1px solid #6b657244;
+        padding-bottom: 1.25rem;
+        p {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #6B6572;
+        }
+        span {
+            font-size: 0.8rem;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            background-color: #DDD2EF;
+            padding: 3px 5px;
+            border-radius: 50%;
+            color: #6F3CC3;
+        }
+    }
+}

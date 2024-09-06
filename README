@@ -1,0 +1,75 @@
+#To-Do-List_PSO
+
+##Descrição
+
+O projeto foi desenvolvido para ser um gerenciador de tarefas com funções simples de adicionar e remover tarefas de uma lista.
+
+##Tecnologias utilizadas
+
+- **Frontend**
+- React
+- SASS
+- Zod
+
+- **Backend**
+- TypeScript
+- NodeJs
+- Express
+- Prisma
+- Zod
+- MySql
+
+##Configuração de instalação
+### Pré Requisitos
+- NodeJs
+- MySQL
+
+
+
+###Instalação
+
+1. **Clone o repositorio**
+```bash
+    git clone git@github.com:andreycaetano/to-do-list_PSO.git
+```
+
+2. **Acesse a pasta do projeto**
+```bash
+    cd to-do-list_PSO
+```
+
+3. **Acesse a pasta backend**
+```bash
+    cd backend
+```
+
+4. **Crie um arquivo .env com as informações do .env.example e preencha as variaveis de PORT e DATABASE_URL**
+```bash
+    PORT=
+    DATABASE_URL=
+```
+
+5. **Inicie o back end**
+```bash
+    npm install
+    npm run dev
+```
+
+6. **Em outro terminal vá até a pasta do frontend e inicie a aplicação**
+```bash
+    npm install
+    npm run dev
+```
+
+
+
+###Testes
+1. **Acesse a pasta backend**
+```bash
+    cd backend
+```
+
+2. **Rode o comando de testes**
+```bash
+    npm run test
+```

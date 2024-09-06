@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    background-color: #E0DCE4;
+    h1 {
+        font-family: 'Inter', sans-serif;
+        font-size: 32px;
+        font-weight: 800;
+        color: #9359F3;
+        font-style: bold;
+        span{
+            color: #479C6E;
+        }
+    }
+}

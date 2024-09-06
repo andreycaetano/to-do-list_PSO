@@ -1,0 +1,39 @@
+.task_item {
+    width: 100%;
+    height: 120px;
+    background-color: #D1CBD7;
+    border-radius: 7px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0.625rem;
+    span {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        color: #6b6572;
+    }
+    h4 {
+        color: #262428;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        padding-left: 10px;
+        width: 90%;
+        overflow-wrap: break-word;
+        height: 60%;
+        margin-top: 30px;
+    }
+    button {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: transparent;
+        border: transparent;
+        color: #6b6572;
+        &:hover {
+            color: #C2464D;
+        }
+    }
+}
