@@ -18,6 +18,7 @@ O projeto é um gerenciador de tarefas que permite adicionar e remover tarefas d
   - Prisma
   - Zod
   - MySQL
+  - Jest
 
 ## Configuração de Instalação
 
